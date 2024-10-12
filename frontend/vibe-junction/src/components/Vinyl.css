@@ -1,0 +1,24 @@
+:root {
+    --rotate-start: 0deg;
+    --rotate-end: 360deg;
+}
+
+.vinyl {
+    width: 65%;
+    height: 65%;
+    position: absolute;
+}
+
+.vinyl-playing {
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(var(--rotate-start));
+    }
+
+    to {
+        transform: rotate(var(--rotate-end));
+    }
+}

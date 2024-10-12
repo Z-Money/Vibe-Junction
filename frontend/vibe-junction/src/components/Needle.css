@@ -1,0 +1,13 @@
+.needle {
+    height: 60%;
+    position: absolute;
+    right: 11.5%;
+    top: 17%;
+    transition: all 2s ease-in-out;
+}
+
+.needle-playing {
+    transform: rotate(42.5deg);
+    right: 23.5%;
+    top: 11%;
+}

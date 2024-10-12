@@ -1,0 +1,50 @@
+.album-list-container {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.album {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.album:hover {
+    transform: scale(1.05);
+}
+
+.album img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.album h3,
+.album p {
+    margin: 0;
+    text-align: center;
+    font-family: var(--sans-serif-font);
+}
+
+.album h3 {
+    font-size: 1em;
+}
+
+.album p {
+    font-size: .8em;
+}

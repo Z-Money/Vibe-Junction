@@ -1,0 +1,38 @@
+.vinyl-info {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vinyl-title {
+    font-family: var(--serif-font);
+    text-align: center;
+}
+
+.side-menu-container {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.record-player-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.record-player {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
